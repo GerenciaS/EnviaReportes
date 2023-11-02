@@ -1,0 +1,10 @@
+C:\Users\Programador\Documents\repos\EnviaReportes\EnviaReportes\bin\x86\Debug\EnviaReportes.exe.config
+C:\Users\Programador\Documents\repos\EnviaReportes\EnviaReportes\bin\x86\Debug\EnviaReportes.exe
+C:\Users\Programador\Documents\repos\EnviaReportes\EnviaReportes\bin\x86\Debug\EnviaReportes.pdb
+C:\Users\Programador\Documents\repos\EnviaReportes\EnviaReportes\obj\x86\Debug\EnviaReportes.csproj.AssemblyReference.cache
+C:\Users\Programador\Documents\repos\EnviaReportes\EnviaReportes\obj\x86\Debug\EnviaReportes.FrmPrimcipal.resources
+C:\Users\Programador\Documents\repos\EnviaReportes\EnviaReportes\obj\x86\Debug\EnviaReportes.Properties.Resources.resources
+C:\Users\Programador\Documents\repos\EnviaReportes\EnviaReportes\obj\x86\Debug\EnviaReportes.csproj.GenerateResource.cache
+C:\Users\Programador\Documents\repos\EnviaReportes\EnviaReportes\obj\x86\Debug\EnviaReportes.csproj.CoreCompileInputs.cache
+C:\Users\Programador\Documents\repos\EnviaReportes\EnviaReportes\obj\x86\Debug\EnviaReportes.exe
+C:\Users\Programador\Documents\repos\EnviaReportes\EnviaReportes\obj\x86\Debug\EnviaReportes.pdb

@@ -1,0 +1,168 @@
+E:\eBo\Datos\Proyectos\.net 2012\c sharp\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe.config
+E:\eBo\Datos\Proyectos\.net 2012\c sharp\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe
+E:\eBo\Datos\Proyectos\.net 2012\c sharp\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.pdb
+E:\eBo\Datos\Proyectos\.net 2012\c sharp\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csprojResolveAssemblyReference.cache
+E:\eBo\Datos\Proyectos\.net 2012\c sharp\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.FrmPrimcipal.resources
+E:\eBo\Datos\Proyectos\.net 2012\c sharp\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.Properties.Resources.resources
+E:\eBo\Datos\Proyectos\.net 2012\c sharp\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.GenerateResource.Cache
+E:\eBo\Datos\Proyectos\.net 2012\c sharp\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.exe
+E:\eBo\Datos\Proyectos\.net 2012\c sharp\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.pdb
+C:\Noe\Programas Heredados\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe.config
+C:\Noe\Programas Heredados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.exe
+C:\Noe\Programas Heredados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.pdb
+C:\Noe\Programas Heredados\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe
+C:\Noe\Programas Heredados\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.pdb
+C:\Noe\Programas Heredados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.FrmPrimcipal.resources
+C:\Noe\Programas Heredados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.Properties.Resources.resources
+C:\Noe\Programas Heredados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.GenerateResource.Cache
+C:\Noe\Programas Heredados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csprojResolveAssemblyReference.cache
+C:\Noe\Programas Recuperados\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe.config
+C:\Noe\Programas Recuperados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.exe
+C:\Noe\Programas Recuperados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.pdb
+C:\Noe\Programas Recuperados\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe
+C:\Noe\Programas Recuperados\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.pdb
+C:\Noe\Programas Recuperados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csprojResolveAssemblyReference.cache
+C:\Noe\Programas Recuperados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.FrmPrimcipal.resources
+C:\Noe\Programas Recuperados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.Properties.Resources.resources
+C:\Noe\Programas Recuperados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.GenerateResource.Cache
+D:\Noe\Programas Recuperados\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe.config
+D:\Noe\Programas Recuperados\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe
+D:\Noe\Programas Recuperados\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.pdb
+D:\Noe\Programas Recuperados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.FrmPrimcipal.resources
+D:\Noe\Programas Recuperados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.Properties.Resources.resources
+D:\Noe\Programas Recuperados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.GenerateResource.Cache
+D:\Noe\Programas Recuperados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.exe
+D:\Noe\Programas Recuperados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.pdb
+C:\Users\Desarrollo\Desktop\trabajo actual\Envia Reportes ultimo enviado noe\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe.config
+C:\Users\Desarrollo\Desktop\trabajo actual\Envia Reportes ultimo enviado noe\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe
+C:\Users\Desarrollo\Desktop\trabajo actual\Envia Reportes ultimo enviado noe\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.pdb
+C:\Users\Desarrollo\Desktop\trabajo actual\Envia Reportes ultimo enviado noe\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csprojResolveAssemblyReference.cache
+C:\Users\Desarrollo\Desktop\trabajo actual\Envia Reportes ultimo enviado noe\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.FrmPrimcipal.resources
+C:\Users\Desarrollo\Desktop\trabajo actual\Envia Reportes ultimo enviado noe\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.Properties.Resources.resources
+C:\Users\Desarrollo\Desktop\trabajo actual\Envia Reportes ultimo enviado noe\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.GenerateResource.Cache
+C:\Users\Desarrollo\Desktop\trabajo actual\Envia Reportes ultimo enviado noe\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.exe
+C:\Users\Desarrollo\Desktop\trabajo actual\Envia Reportes ultimo enviado noe\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.pdb
+C:\Users\Desarrollo\Desktop\trabajo actual\02 Envia Reportes Entrega noe Dia 31 julio\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe.config
+C:\Users\Desarrollo\Desktop\trabajo actual\02 Envia Reportes Entrega noe Dia 31 julio\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe
+C:\Users\Desarrollo\Desktop\trabajo actual\02 Envia Reportes Entrega noe Dia 31 julio\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.pdb
+C:\Users\Desarrollo\Desktop\trabajo actual\02 Envia Reportes Entrega noe Dia 31 julio\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csprojResolveAssemblyReference.cache
+C:\Users\Desarrollo\Desktop\trabajo actual\02 Envia Reportes Entrega noe Dia 31 julio\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.FrmPrimcipal.resources
+C:\Users\Desarrollo\Desktop\trabajo actual\02 Envia Reportes Entrega noe Dia 31 julio\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.Properties.Resources.resources
+C:\Users\Desarrollo\Desktop\trabajo actual\02 Envia Reportes Entrega noe Dia 31 julio\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.GenerateResource.Cache
+C:\Users\Desarrollo\Desktop\trabajo actual\02 Envia Reportes Entrega noe Dia 31 julio\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.exe
+C:\Users\Desarrollo\Desktop\trabajo actual\02 Envia Reportes Entrega noe Dia 31 julio\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.pdb
+C:\Noé\Programas Recuperados\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe.config
+C:\Noé\Programas Recuperados\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe
+C:\Noé\Programas Recuperados\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.pdb
+C:\Noé\Programas Recuperados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csprojResolveAssemblyReference.cache
+C:\Noé\Programas Recuperados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.FrmPrimcipal.resources
+C:\Noé\Programas Recuperados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.Properties.Resources.resources
+C:\Noé\Programas Recuperados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.GenerateResource.Cache
+C:\Noé\Programas Recuperados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.exe
+C:\Noé\Programas Recuperados\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.pdb
+D:\005EnviaReportes Destinatarios\EnviaReportes\bin\Debug\EnviaReportes.exe.config
+D:\005EnviaReportes Destinatarios\EnviaReportes\bin\Debug\EnviaReportes.exe
+D:\005EnviaReportes Destinatarios\EnviaReportes\bin\Debug\EnviaReportes.pdb
+D:\005EnviaReportes Destinatarios\EnviaReportes\obj\Debug\EnviaReportes.csprojResolveAssemblyReference.cache
+D:\005EnviaReportes Destinatarios\EnviaReportes\obj\Debug\EnviaReportes.FrmPrimcipal.resources
+D:\005EnviaReportes Destinatarios\EnviaReportes\obj\Debug\EnviaReportes.Properties.Resources.resources
+D:\005EnviaReportes Destinatarios\EnviaReportes\obj\Debug\EnviaReportes.csproj.GenerateResource.Cache
+D:\005EnviaReportes Destinatarios\EnviaReportes\obj\Debug\EnviaReportes.exe
+D:\005EnviaReportes Destinatarios\EnviaReportes\obj\Debug\EnviaReportes.pdb
+C:\Users\Programador\Mi unidad\repos\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe.config
+C:\Users\Programador\Mi unidad\repos\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe
+C:\Users\Programador\Mi unidad\repos\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.pdb
+C:\Users\Programador\Mi unidad\repos\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csprojResolveAssemblyReference.cache
+C:\Users\Programador\Mi unidad\repos\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.FrmPrimcipal.resources
+C:\Users\Programador\Mi unidad\repos\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.Properties.Resources.resources
+C:\Users\Programador\Mi unidad\repos\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.GenerateResource.Cache
+C:\Users\Programador\Mi unidad\repos\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.exe
+C:\Users\Programador\Mi unidad\repos\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.pdb
+C:\Users\Programador\Documents\Eduardo\repos\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe.config
+C:\Users\Programador\Documents\Eduardo\repos\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe
+C:\Users\Programador\Documents\Eduardo\repos\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.pdb
+C:\Users\Programador\Documents\Eduardo\repos\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.FrmPrimcipal.resources
+C:\Users\Programador\Documents\Eduardo\repos\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.Properties.Resources.resources
+C:\Users\Programador\Documents\Eduardo\repos\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.GenerateResource.Cache
+C:\Users\Programador\Documents\Eduardo\repos\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.exe
+C:\Users\Programador\Documents\Eduardo\repos\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.pdb
+C:\Users\Programador\Documents\Eduardo\repos\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.AssemblyReference.cache
+C:\Users\Programador\Documents\Eduardo\repos\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.CoreCompileInputs.cache
+C:\Users\Programador\Documents\repos\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe.config
+C:\Users\Programador\Documents\repos\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe
+C:\Users\Programador\Documents\repos\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.pdb
+C:\Users\Programador\Documents\repos\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.FrmPrimcipal.resources
+C:\Users\Programador\Documents\repos\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.Properties.Resources.resources
+C:\Users\Programador\Documents\repos\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.GenerateResource.cache
+C:\Users\Programador\Documents\repos\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.CoreCompileInputs.cache
+C:\Users\Programador\Documents\repos\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.exe
+C:\Users\Programador\Documents\repos\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.pdb
+C:\Users\Programador\Documents\repos\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csprojAssemblyReference.cache
+E:\repos\enviareportes\EnviaReportes\bin\Debug\EnviaReportes.exe.config
+E:\repos\enviareportes\EnviaReportes\bin\Debug\EnviaReportes.exe
+E:\repos\enviareportes\EnviaReportes\bin\Debug\EnviaReportes.pdb
+E:\repos\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.FrmPrimcipal.resources
+E:\repos\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.Properties.Resources.resources
+E:\repos\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.GenerateResource.cache
+E:\repos\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.CoreCompileInputs.cache
+E:\repos\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.exe
+E:\repos\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.pdb
+C:\Noé\Repositorios\enviareportes\EnviaReportes\bin\Debug\EnviaReportes.exe.config
+C:\Noé\Repositorios\enviareportes\EnviaReportes\bin\Debug\EnviaReportes.exe
+C:\Noé\Repositorios\enviareportes\EnviaReportes\bin\Debug\EnviaReportes.pdb
+C:\Noé\Repositorios\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.FrmPrimcipal.resources
+C:\Noé\Repositorios\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.Properties.Resources.resources
+C:\Noé\Repositorios\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.GenerateResource.Cache
+C:\Noé\Repositorios\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.exe
+C:\Noé\Repositorios\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.pdb
+E:\repos\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.AssemblyReference.cache
+D:\Proyectos\Repositorios\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.AssemblyReference.cache
+D:\Proyectos\Repositorios\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.FrmPrimcipal.resources
+D:\Proyectos\Repositorios\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.Properties.Resources.resources
+D:\Proyectos\Repositorios\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.GenerateResource.cache
+D:\Proyectos\Repositorios\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.CoreCompileInputs.cache
+D:\Proyectos\Repositorios\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.exe
+D:\Proyectos\Repositorios\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.pdb
+D:\Proyectos\Repositorios\enviareportes\EnviaReportes\bin\Debug\EnviaReportes.exe.config
+D:\Proyectos\Repositorios\enviareportes\EnviaReportes\bin\Debug\EnviaReportes.exe
+D:\Proyectos\Repositorios\enviareportes\EnviaReportes\bin\Debug\EnviaReportes.pdb
+C:\Users\Sistemas\Documents\GitHub\enviareportes\EnviaReportes\bin\Debug\EnviaReportes.exe.config
+C:\Users\Sistemas\Documents\GitHub\enviareportes\EnviaReportes\bin\Debug\EnviaReportes.exe
+C:\Users\Sistemas\Documents\GitHub\enviareportes\EnviaReportes\bin\Debug\EnviaReportes.pdb
+C:\Users\Sistemas\Documents\GitHub\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.AssemblyReference.cache
+C:\Users\Sistemas\Documents\GitHub\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.FrmPrimcipal.resources
+C:\Users\Sistemas\Documents\GitHub\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.Properties.Resources.resources
+C:\Users\Sistemas\Documents\GitHub\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.GenerateResource.cache
+C:\Users\Sistemas\Documents\GitHub\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.CoreCompileInputs.cache
+C:\Users\Sistemas\Documents\GitHub\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.exe
+C:\Users\Sistemas\Documents\GitHub\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.pdb
+C:\Users\javi_\OneDrive\Escritorio\Ejemplo compro\enviareportes\EnviaReportes\bin\Debug\EnviaReportes.exe.config
+C:\Users\javi_\OneDrive\Escritorio\Ejemplo compro\enviareportes\EnviaReportes\bin\Debug\EnviaReportes.exe
+C:\Users\javi_\OneDrive\Escritorio\Ejemplo compro\enviareportes\EnviaReportes\bin\Debug\EnviaReportes.pdb
+C:\Users\javi_\OneDrive\Escritorio\Ejemplo compro\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.AssemblyReference.cache
+C:\Users\javi_\OneDrive\Escritorio\Ejemplo compro\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.FrmPrimcipal.resources
+C:\Users\javi_\OneDrive\Escritorio\Ejemplo compro\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.Properties.Resources.resources
+C:\Users\javi_\OneDrive\Escritorio\Ejemplo compro\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.GenerateResource.cache
+C:\Users\javi_\OneDrive\Escritorio\Ejemplo compro\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.CoreCompileInputs.cache
+C:\Users\javi_\OneDrive\Escritorio\Ejemplo compro\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.exe
+C:\Users\javi_\OneDrive\Escritorio\Ejemplo compro\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.pdb
+E:\Proyectos\Repositorios\repos\Actualizados\enviareportes\EnviaReportes\bin\Debug\EnviaReportes.exe.config
+E:\Proyectos\Repositorios\repos\Actualizados\enviareportes\EnviaReportes\bin\Debug\EnviaReportes.exe
+E:\Proyectos\Repositorios\repos\Actualizados\enviareportes\EnviaReportes\bin\Debug\EnviaReportes.pdb
+E:\Proyectos\Repositorios\repos\Actualizados\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.AssemblyReference.cache
+E:\Proyectos\Repositorios\repos\Actualizados\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.FrmPrimcipal.resources
+E:\Proyectos\Repositorios\repos\Actualizados\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.Properties.Resources.resources
+E:\Proyectos\Repositorios\repos\Actualizados\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.GenerateResource.cache
+E:\Proyectos\Repositorios\repos\Actualizados\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.CoreCompileInputs.cache
+E:\Proyectos\Repositorios\repos\Actualizados\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.exe
+E:\Proyectos\Repositorios\repos\Actualizados\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.pdb
+C:\Users\Sistemas\Desktop\enviareportes\EnviaReportes\bin\Debug\EnviaReportes.exe.config
+C:\Users\Sistemas\Desktop\enviareportes\EnviaReportes\bin\Debug\EnviaReportes.exe
+C:\Users\Sistemas\Desktop\enviareportes\EnviaReportes\bin\Debug\EnviaReportes.pdb
+C:\Users\Sistemas\Desktop\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.AssemblyReference.cache
+C:\Users\Sistemas\Desktop\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.FrmPrimcipal.resources
+C:\Users\Sistemas\Desktop\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.Properties.Resources.resources
+C:\Users\Sistemas\Desktop\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.GenerateResource.cache
+C:\Users\Sistemas\Desktop\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.CoreCompileInputs.cache
+C:\Users\Sistemas\Desktop\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.exe
+C:\Users\Sistemas\Desktop\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.pdb

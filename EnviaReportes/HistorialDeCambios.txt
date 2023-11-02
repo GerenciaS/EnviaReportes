@@ -1,0 +1,12 @@
+﻿HISTORIAL DE CAMBIOS
+08/Jun/2022 - Noé García - Debido a un campo en las políticas de autenticación de Gmail, se activó la autenticación en 2 pasos y se generó una contraseña para aplicaciones
+                           la cual deberá usarse de ahora en adelante para el envío de los reportes con esta aplicación.
+31/May/2022 - Noé García - Se quitaron todas las columnas referentes a la linea de snacks y botanas del reporte de Comparativo vs Presupuesto
+25/May/2022 - Noé García - Se agregó la dirección de correo de Emiliano Ibarra a la lista de destinatarios del reporte Comparativo vs Presupuesto
+03/Mar/2022 - Eduardo Heredia - Se agregan botones para la generación de Reportes por el Usuario.
+25/Feb/2022 - Eduardo Heredia - Se cambia la referencia en Reporte de Apertura en las Bases de Datos, de BMSTamazulaSC a BMSEdy
+09/Ago/2021 - Noé García - Se cambió la cuenta de correo de Mónica Pérez para usar el buzón de la empresa en lugar de su buzón de correo personal (Hotmail).
+30/Nov/2022 - Noé García - Se incluyó el establecimiento 100 - Imp. La Paz en las listas de los envíos.
+03/Dic/2022 - Noé García - A petición de Luis Guerrero y Mónica Pérez se suspendió el envío del reporte Comparativo de Ventas vs Presupuesto a las 12 del mediodía y a las 3 de la tarde para no afectar la venta de la temporada decembrina.
+14/Dic/2022 - Noé García - SE incluyó el establecimiento 103 - Imp. Obregón Plaza (Jalisco) en las listas de los envíos.
+24/Feb/2023 - Javier Rodriguez- se cambio de base de datos de BMSEdy a BMSNayar

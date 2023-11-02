@@ -1,0 +1,15 @@
+F:\Elias Sistemas\eBo\Datos\Proyectos\.net 2012\c sharp\EnviaReportes\EnviaReportes\bin\x86\Release\EnviaReportes.exe.config
+F:\Elias Sistemas\eBo\Datos\Proyectos\.net 2012\c sharp\EnviaReportes\EnviaReportes\bin\x86\Release\EnviaReportes.exe
+F:\Elias Sistemas\eBo\Datos\Proyectos\.net 2012\c sharp\EnviaReportes\EnviaReportes\bin\x86\Release\EnviaReportes.pdb
+F:\Elias Sistemas\eBo\Datos\Proyectos\.net 2012\c sharp\EnviaReportes\EnviaReportes\obj\x86\Release\EnviaReportes.csprojResolveAssemblyReference.cache
+F:\Elias Sistemas\eBo\Datos\Proyectos\.net 2012\c sharp\EnviaReportes\EnviaReportes\obj\x86\Release\EnviaReportes.FrmPrimcipal.resources
+F:\Elias Sistemas\eBo\Datos\Proyectos\.net 2012\c sharp\EnviaReportes\EnviaReportes\obj\x86\Release\EnviaReportes.Properties.Resources.resources
+F:\Elias Sistemas\eBo\Datos\Proyectos\.net 2012\c sharp\EnviaReportes\EnviaReportes\obj\x86\Release\EnviaReportes.csproj.GenerateResource.Cache
+F:\Elias Sistemas\eBo\Datos\Proyectos\.net 2012\c sharp\EnviaReportes\EnviaReportes\obj\x86\Release\EnviaReportes.exe
+F:\Elias Sistemas\eBo\Datos\Proyectos\.net 2012\c sharp\EnviaReportes\EnviaReportes\obj\x86\Release\EnviaReportes.pdb
+D:\Elias Sistemas\eBo\Datos\Proyectos\.net 2012\c sharp\EnviaReportes\EnviaReportes\bin\x86\Release\EnviaReportes.exe.config
+D:\Elias Sistemas\eBo\Datos\Proyectos\.net 2012\c sharp\EnviaReportes\EnviaReportes\obj\x86\Release\EnviaReportes.exe
+D:\Elias Sistemas\eBo\Datos\Proyectos\.net 2012\c sharp\EnviaReportes\EnviaReportes\obj\x86\Release\EnviaReportes.pdb
+C:\Noe\Programas Heredados\EnviaReportes\EnviaReportes\bin\x86\Release\EnviaReportes.exe.config
+C:\Noe\Programas Heredados\EnviaReportes\EnviaReportes\obj\x86\Release\EnviaReportes.exe
+C:\Noe\Programas Heredados\EnviaReportes\EnviaReportes\obj\x86\Release\EnviaReportes.pdb
