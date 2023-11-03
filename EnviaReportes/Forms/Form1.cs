@@ -806,8 +806,8 @@ namespace EnviaReportes
             temp = asunto.Split('.');
             asunto = temp.First();
             MailMessage mail = new MailMessage();
-            mail.Bcc.Add(Destinatarios);
-            mail.To.Add("maferperezle01@gmail.com");
+          //  mail.Bcc.Add(Destinatarios);
+            //mail.To.Add("maferperezle01@gmail.com");
             mail.To.Add("programador@mercadodeimportaciones.com");
 
             mail.From = new MailAddress("sistemas@mercadodeimportaciones.com");
@@ -854,12 +854,13 @@ namespace EnviaReportes
             MailMessage mail = new MailMessage();
             SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
             mail.From = new MailAddress("sistemas.gmimportaciones@gmail.com");
-            mail.Bcc.Add(Destinatarios);
-            mail.To.Add("maferperezle01@gmail.com");
+           // mail.Bcc.Add(Destinatarios);
+          //  mail.To.Add("maferperezle01@gmail.com");
             mail.To.Add("programador@mercadodeimportaciones.com");
             mail.Subject = asunto;
             mail.IsBodyHtml = true;
-            mail.Body = "<h2 style=\"font-style:italic;\"><strong>REPORT SERVICE</strong></h2>";
+            //mail.Body = "<h2 style=\"font-style:italic;\"><strong>REPORT SERVICE </strong></h2>";
+            mail.Body = "Buen dia, se anexa reporte: " + asunto +" , este reporte es una prueba favor de hacer caso omiso del mismo.";
             System.Net.Mail.Attachment attachment;
             attachment = new System.Net.Mail.Attachment(sReport);
             mail.Attachments.Add(attachment);
@@ -2721,7 +2722,7 @@ namespace EnviaReportes
                 SqlDataAdapter da = new SqlDataAdapter();
                 da.SelectCommand = cmd;
                 dia = dia.AddDays(-1);
-                lblEstado.Text = "Enviando Reporte de Descuentos [EN PROCESO]...";
+                lblEstado.Text = "Enviando Reporte de Descuentos EN PROCESO...";
 
                 cmd.CommandText = "Select  ventas.cod_estab,ventas.folio,transacciones.abreviatura as trans,ventas.cod_prod,ltrim(rtrim(productos.descripcion)) as descripcion,"
                 + " ltrim(rtrim(lineas_productos.nombre)) as linea,ltrim(rtrim(familias.nombre)) as familia,clasificaciones_productos.nombre as clasif,	ltrim(rtrim(tipos_productos.nombre)) as [tipo producto],"
@@ -3146,7 +3147,7 @@ namespace EnviaReportes
                 libro.Close();
                 excel.Quit();
 
-                lblEstado.Text = "Reporte de Descuentos  [FINALIZADO]";
+                lblEstado.Text = "Reporte de Descuentos FINALIZADO";
                 return System.Windows.Forms.Application.StartupPath + "\\Ventas con descuento del " + dia.ToString("dd MMMM yyyy") + ".xlsb";
             }
             catch (Exception e)
@@ -3172,7 +3173,8 @@ namespace EnviaReportes
                     // Se agregan algunos destinatarios a propósito por cuestiones especiales
                     if (dr["cod_estab"].ToString().Trim() == "1003")
                     {
-                        str = string.Concat(str, ",luis.guerrero@mercadodeimportaciones.com");
+                        //str = string.Concat(str, ",luis.guerrero@mercadodeimportaciones.com");
+                        str = string.Concat(str, ",programador@mercadodeimportaciones.com");
                     }
 
                     this.EnviaMailGmail(this.IncidenciasSucursal(dr["cod_estab"].ToString().Trim(), dr["nombre"].ToString(), dia), str);
@@ -5150,12 +5152,14 @@ namespace EnviaReportes
                     string str = string.Concat(dr["email"].ToString().Trim(), ",", dr["email_cordinador"].ToString().Trim());
                     if (dr["cod_estab"].ToString().Trim() == "1")
                     {
-                        str = string.Concat(str, ",eduardo@mercadodeimportaciones.com,mercadotecniaauxiliar@mercadodeimportaciones.com,maferperezle01@gmail.com");
+                        //str = string.Concat(str, ",eduardo@mercadodeimportaciones.com,mercadotecniaauxiliar@mercadodeimportaciones.com,maferperezle01@gmail.com");
+                        str = string.Concat(str, ",programador @mercadodeimportaciones.com"); 
                     }
                     // Este if se puede quitar, pero se puso para que le lleguen los correos al jefe de sistemas y pueda estar validando que el envío automático de los reportes se está haciendo.
                     //else if ((dr["cod_estab"].ToString().Trim() == "9") || (dr["cod_estab"].ToString().Trim() == "3"))
                     //{
-                    str = string.Concat(str, ",analista.comercial@mercadodeimportaciones.com,annacelia.soto@mercadodeimportaciones.com,luis.cota@mercadodeimportaciones.com,mario.serrano@mercadodeimportaciones.com,auxiliar.ventas@mercadodeimportaciones.com");
+                    //str = string.Concat(str, ",analista.comercial@mercadodeimportaciones.com,annacelia.soto@mercadodeimportaciones.com,luis.cota@mercadodeimportaciones.com,mario.serrano@mercadodeimportaciones.com,auxiliar.ventas@mercadodeimportaciones.com");
+                    str = string.Concat(str, ",programador @mercadodeimportaciones.com");
                     //}
 
                     //this.PresupuestoSucursal(dr["cod_estab"].ToString().Trim(), dr["nombre"].ToString(), dia);
@@ -5446,7 +5450,8 @@ namespace EnviaReportes
 
                     if (dr["cod_estab"].ToString().Trim() == "1")
                     {
-                        destinatarios = string.Concat(destinatarios, ",luis.guerrero@mercadodeimportaciones.com");
+                        //destinatarios = string.Concat(destinatarios, ",luis.guerrero@mercadodeimportaciones.com");
+                        destinatarios = string.Concat(destinatarios, ",programador@mercadodeimportaciones.com");
                     }
                     EnviaMailGmail(Top80Sucursal(dr["cod_estab"].ToString().Trim(), dr["nombre"].ToString(), dia), destinatarios);
                 }
@@ -6662,11 +6667,13 @@ namespace EnviaReportes
             if (now.ToString("HH:mm").Trim() == "01:01")
             {
                 this.lblEstado.Text = "Enviando Reporte de Apertura...";
-                this.EnviaMailGmail(this.ReporteApertura(DateTime.Now), "luis.guerrero@mercadodeimportaciones.com,alberto.martinez@mercadodeimportaciones.com,prevencion@mercadodeimportaciones.com,francisco.ontiveros@mercadodeimportaciones.com,Gerencia.Sistemas@mercadodeimportaciones.com,maferperezle01@gmail.com");
-                
+                //this.EnviaMailGmail(this.ReporteApertura(DateTime.Now), "luis.guerrero@mercadodeimportaciones.com,alberto.martinez@mercadodeimportaciones.com,prevencion@mercadodeimportaciones.com,francisco.ontiveros@mercadodeimportaciones.com,Gerencia.Sistemas@mercadodeimportaciones.com,maferperezle01@gmail.com");
+                this.EnviaMailGmail(this.ReporteApertura(DateTime.Now), "programador@mercadodeimportaciones.com");
+
                 this.lblEstado.Text = "Enviando Reporte de Descuentos...";
-                this.EnviaMailGmail(this.ReporteDescuento(DateTime.Now), "monica.perez@mercadodeimportaciones.com,jassiel.perez@mercadodeimportaciones.com,alberto.martinez@mercadodeimportaciones.com,francisco.ontiveros@mercadodeimportaciones.com,luis.guerrero@mercadodeimportaciones.com,mercadotecniaauxiliar@mercadodeimportaciones.com,luis.cota@mercadodeimportaciones.com,mario.serrano@mercadodeimportaciones.com,annacelia.soto@mercadodeimportaciones.com,asofia.mercadodeimportaciones@gmail.com,Gerencia.Sistemas@mercadodeimportaciones.com,analista.comercial@mercadodeimportaciones.com,hibrajid.lara@mercadodeimportaciones.com");
-                
+                //this.EnviaMailGmail(this.ReporteDescuento(DateTime.Now), "monica.perez@mercadodeimportaciones.com,jassiel.perez@mercadodeimportaciones.com,alberto.martinez@mercadodeimportaciones.com,francisco.ontiveros@mercadodeimportaciones.com,luis.guerrero@mercadodeimportaciones.com,mercadotecniaauxiliar@mercadodeimportaciones.com,luis.cota@mercadodeimportaciones.com,mario.serrano@mercadodeimportaciones.com,annacelia.soto@mercadodeimportaciones.com,asofia.mercadodeimportaciones@gmail.com,Gerencia.Sistemas@mercadodeimportaciones.com,analista.comercial@mercadodeimportaciones.com,hibrajid.lara@mercadodeimportaciones.com");
+                this.EnviaMailGmail(this.ReporteDescuento(DateTime.Now), "programador@mercadodeimportaciones.com");
+
                 this.lblEstado.Text = "Enviando Reporte de Incidencias...";
                 this.Incidencias();
                 
@@ -6695,8 +6702,9 @@ namespace EnviaReportes
             if (/*(now.ToString("HH:mm").Trim() == "12:00") | (now.ToString("HH:mm").Trim() == "15:00") | */(now.ToString("HH:mm").Trim() == "18:00") | (now.ToString("HH:mm").Trim() == "22:35"))
             {
                 this.lblEstado.Text = "Enviando Reporte Comparativo vs Presupuesto...";
-                this.EnviaMailGmail(this.ComparativoPresupuesto(DateTime.Now), "director@mercadodeimportaciones.com,guillermina.cervantes@mercadodeimportaciones.com,culiacan@mercadodeimportaciones.com,guamuchilcentro@mercadodeimportaciones.com,guamuchilplaza@mercadodeimportaciones.com,guasavecentro@mercadodeimportaciones.com,guaymas@mercadodeimportaciones.com,hermosillocentro@mercadodeimportaciones.com,hermosillosendero@mercadodeimportaciones.com,mochis@mercadodeimportaciones.com,navojoa@mercadodeimportaciones.com,navolato@mercadodeimportaciones.com,obregon@mercadodeimportaciones.com,guasaveplaza@mercadodeimportaciones.com,luis.guerrero@mercadodeimportaciones.com,karmina.alcala@mercadodeimportaciones.com,carrasco@mercadodeimportaciones.com,escobedo@mercadodeimportaciones.com,navolato.imp@mercadodeimportaciones.com,luis.cota@mercadodeimportaciones.com,mario.serrano@mercadodeimportaciones.com,eduardope01@hotmail.com,annacelia.soto@mercadodeimportaciones.com,alberto.martinez@mercadodeimportaciones.com,recepcion@mercadodeimportaciones.com,rubi@mercadodeimportaciones.com,hermosillomonterrey@mercadodeimportaciones.com,ladiesobregon@mercadodeimportaciones.com,guaymas.serdan@mercadodeimportaciones.com,monica.perez@mercadodeimportaciones.com,terranova@mercadodeimportaciones.com,asofia.mercadodeimportaciones@gmail.com,cabosendero@mercadodeimportaciones.com,jassiel.perez@mercadodeimportaciones.com,soporte.sinaloa@mercadodeimportaciones.com,mazatlanelmar@mercadodeimportaciones.com,jesus.suarez@mercadodeimportaciones.com,senderos.culiacan@mercadodeimportaciones.com,abastos@mercadodeimportaciones.com,mazatlanaquiles@mercadodeimportaciones.com,mercadotecnia@mercadodeimportaciones.com,analista.comercial@mercadodeimportaciones.com,barrancos@mercadodeimportaciones.com,mochissendero@mercadodeimportaciones.com,obregonsendero@mercadodeimportaciones.com,san.isidro@mercadodeimportaciones.com,hermosillomatamoros@mercadodeimportaciones.com,jesus.salazar@mercadodeimportaciones.com,huatabampo@mercadodeimportaciones.com,silvia.bojorquez@mercadodeimportaciones.com,cabosendero2@mercadodeimportaciones.com,auxiliar.sistemas@mercadodeimportaciones.com,maferperezle01@gmail.com,auxiliar.ventas@mercadodeimportaciones.com,lapaz@mercadodeimportaciones.com,obregonplaza@mercadodeimportaciones.com");
+                //this.EnviaMailGmail(this.ComparativoPresupuesto(DateTime.Now), "director@mercadodeimportaciones.com,guillermina.cervantes@mercadodeimportaciones.com,culiacan@mercadodeimportaciones.com,guamuchilcentro@mercadodeimportaciones.com,guamuchilplaza@mercadodeimportaciones.com,guasavecentro@mercadodeimportaciones.com,guaymas@mercadodeimportaciones.com,hermosillocentro@mercadodeimportaciones.com,hermosillosendero@mercadodeimportaciones.com,mochis@mercadodeimportaciones.com,navojoa@mercadodeimportaciones.com,navolato@mercadodeimportaciones.com,obregon@mercadodeimportaciones.com,guasaveplaza@mercadodeimportaciones.com,luis.guerrero@mercadodeimportaciones.com,karmina.alcala@mercadodeimportaciones.com,carrasco@mercadodeimportaciones.com,escobedo@mercadodeimportaciones.com,navolato.imp@mercadodeimportaciones.com,luis.cota@mercadodeimportaciones.com,mario.serrano@mercadodeimportaciones.com,eduardope01@hotmail.com,annacelia.soto@mercadodeimportaciones.com,alberto.martinez@mercadodeimportaciones.com,recepcion@mercadodeimportaciones.com,rubi@mercadodeimportaciones.com,hermosillomonterrey@mercadodeimportaciones.com,ladiesobregon@mercadodeimportaciones.com,guaymas.serdan@mercadodeimportaciones.com,monica.perez@mercadodeimportaciones.com,terranova@mercadodeimportaciones.com,asofia.mercadodeimportaciones@gmail.com,cabosendero@mercadodeimportaciones.com,jassiel.perez@mercadodeimportaciones.com,soporte.sinaloa@mercadodeimportaciones.com,mazatlanelmar@mercadodeimportaciones.com,jesus.suarez@mercadodeimportaciones.com,senderos.culiacan@mercadodeimportaciones.com,abastos@mercadodeimportaciones.com,mazatlanaquiles@mercadodeimportaciones.com,mercadotecnia@mercadodeimportaciones.com,analista.comercial@mercadodeimportaciones.com,barrancos@mercadodeimportaciones.com,mochissendero@mercadodeimportaciones.com,obregonsendero@mercadodeimportaciones.com,san.isidro@mercadodeimportaciones.com,hermosillomatamoros@mercadodeimportaciones.com,jesus.salazar@mercadodeimportaciones.com,huatabampo@mercadodeimportaciones.com,silvia.bojorquez@mercadodeimportaciones.com,cabosendero2@mercadodeimportaciones.com,auxiliar.sistemas@mercadodeimportaciones.com,maferperezle01@gmail.com,auxiliar.ventas@mercadodeimportaciones.com,lapaz@mercadodeimportaciones.com,obregonplaza@mercadodeimportaciones.com");
                 //this.EnviaMail(this.ComparativoPresupuesto(DateTime.Now), "director@mercadodeimportaciones.com,guillermina.cervantes@mercadodeimportaciones.com,culiacan@mercadodeimportaciones.com,guamuchilcentro@mercadodeimportaciones.com,guamuchilplaza@mercadodeimportaciones.com,guasavecentro@mercadodeimportaciones.com,guaymas@mercadodeimportaciones.com,hermosillocentro@mercadodeimportaciones.com,hermosillosendero@mercadodeimportaciones.com,mochis@mercadodeimportaciones.com,navojoa@mercadodeimportaciones.com,navolato@mercadodeimportaciones.com,obregon@mercadodeimportaciones.com,guasaveplaza@mercadodeimportaciones.com,luis.guerrero@mercadodeimportaciones.com,karmina.alcala@mercadodeimportaciones.com,carrasco@mercadodeimportaciones.com,escobedo@mercadodeimportaciones.com,navolato.imp@mercadodeimportaciones.com,luis.cota@mercadodeimportaciones.com,mario.serrano@mercadodeimportaciones.com,eduardope01@hotmail.com,annacelia.soto@mercadodeimportaciones.com,alberto.martinez@mercadodeimportaciones.com,recepcion@mercadodeimportaciones.com,rubi@mercadodeimportaciones.com,hermosillomonterrey@mercadodeimportaciones.com,ladiesobregon@mercadodeimportaciones.com,guaymas.serdan@mercadodeimportaciones.com,monica.perez@mercadodeimportaciones.com,terranova@mercadodeimportaciones.com,asofia.mercadodeimportaciones@gmail.com,cabosendero@mercadodeimportaciones.com,jassiel.perez@mercadodeimportaciones.com,soporte.sinaloa@mercadodeimportaciones.com,mazatlanelmar@mercadodeimportaciones.com,jesus.suarez@mercadodeimportaciones.com,senderos.culiacan@mercadodeimportaciones.com,abastos@mercadodeimportaciones.com,mazatlanaquiles@mercadodeimportaciones.com,mercadotecnia@mercadodeimportaciones.com,analista.comercial@mercadodeimportaciones.com,barrancos@mercadodeimportaciones.com,mochissendero@mercadodeimportaciones.com,obregonsendero@mercadodeimportaciones.com,san.isidro@mercadodeimportaciones.com,hermosillomatamoros@mercadodeimportaciones.com,jesus.salazar@mercadodeimportaciones.com,huatabampo@mercadodeimportaciones.com,silvia.bojorquez@mercadodeimportaciones.com,cabosendero2@mercadodeimportaciones.com,auxiliar.sistemas@mercadodeimportaciones.com,maferperezle01@gmail.com,auxiliar.ventas@mercadodeimportaciones.com");
+                this.EnviaMailGmail(this.ComparativoPresupuesto(DateTime.Now), "programador@mercadodeimportaciones.com");
 
                 this.lblEstado.Text = "Proceso de envío de Reporte Comparativo vs Presupuesto - FINALIZADO EXITOSAMENTE.";
             }
@@ -6707,7 +6715,10 @@ namespace EnviaReportes
             if (now.ToString("HH:mm").Trim() == "17:30" || now.ToString("HH:mm").Trim() == "22:00")
             {
                 this.lblEstado.Text = "Enviando Reporte Cierre CEDIS...";
-                this.EnviaMailGmail(this.CierreCedis(DateTime.Now), "guillermina.cervantes@mercadodeimportaciones.com,cedis@mercadodeimportaciones.com,cedis.recibo@mercadodeimportaciones.com,cedis.inventarios@mercadodeimportaciones.com,monica.perez@mercadodeimportaciones.com,jassiel.perez@mercadodeimportaciones.com,gilberto.govea@mercadodeimportaciones.com,hibrajid.lara@mercadodeimportaciones.com");
+                //this.EnviaMailGmail(this.CierreCedis(DateTime.Now), "guillermina.cervantes@mercadodeimportaciones.com,cedis@mercadodeimportaciones.com,cedis.recibo@mercadodeimportaciones.com,cedis.inventarios@mercadodeimportaciones.com,monica.perez@mercadodeimportaciones.com,jassiel.perez@mercadodeimportaciones.com,gilberto.govea@mercadodeimportaciones.com,hibrajid.lara@mercadodeimportaciones.com");
+
+                this.EnviaMailGmail(this.CierreCedis(DateTime.Now), "programador@mercadodeimportaciones.com");
+
                 this.lblEstado.Text = "Proceso de envío de Reporte Cierre CEDIS - FINALIZADO EXITOSAMENTE.";
             }
 
@@ -6735,7 +6746,9 @@ namespace EnviaReportes
                 if (dt.DayOfWeek == DayOfWeek.Monday || dt.DayOfWeek == DayOfWeek.Friday)
                 {
                     this.lblEstado.Text = "Enviando Reporte Existencias En Dias Ventas...";
-                    this.EnviaMailGmail(this.Existencias_dias_ventas(DateTime.Now), "guillermina.cervantes@mercadodeimportaciones.com,annacelia.soto@mercadodeimportaciones.com,luis.cota@mercadodeimportaciones.com,mario.serrano@mercadodeimportaciones.com,Gerencia.Sistemas@mercadodeimportaciones.com,monica.perez@mercadodeimportaciones.com,jassiel.perez@mercadodeimportaciones.com,gilberto.govea@mercadodeimportaciones.com,alberto.martinez@mercadodeimportaciones.com,luis.guerrero@mercadodeimportaciones.com,analista.comercial@mercadodeimportaciones.com,jesus.suarez@mercadodeimportaciones.com,hibrajid.lara@mercadodeimportaciones.com,maferperezle01@gmail.com");
+                    //this.EnviaMailGmail(this.Existencias_dias_ventas(DateTime.Now), "guillermina.cervantes@mercadodeimportaciones.com,annacelia.soto@mercadodeimportaciones.com,luis.cota@mercadodeimportaciones.com,mario.serrano@mercadodeimportaciones.com,Gerencia.Sistemas@mercadodeimportaciones.com,monica.perez@mercadodeimportaciones.com,jassiel.perez@mercadodeimportaciones.com,gilberto.govea@mercadodeimportaciones.com,alberto.martinez@mercadodeimportaciones.com,luis.guerrero@mercadodeimportaciones.com,analista.comercial@mercadodeimportaciones.com,jesus.suarez@mercadodeimportaciones.com,hibrajid.lara@mercadodeimportaciones.com,maferperezle01@gmail.com");
+
+                    this.EnviaMailGmail(this.Existencias_dias_ventas(DateTime.Now), "programador@mercadodeimportaciones.com");
                     this.lblEstado.Text = "Proceso de envio de Reporte Existencias dias Ventas - FINALIZADO EXITOSAMENTE";
                 }
 
@@ -6762,7 +6775,9 @@ namespace EnviaReportes
                         while (dr1.Read())
                         {
                             this.lblEstado.Text = "Enviando Reporte Venta De Articulos 30 Dias Venta...";
-                            this.EnviaMailGmail(this.Ventas_Articulos_30(dt, dr1["cod_estab"].ToString(), dr1["nombre"].ToString()), dr1["email"].ToString() + ",analista.comercial@mercadodeimportaciones.com");
+                            //this.EnviaMailGmail(this.Ventas_Articulos_30(dt, dr1["cod_estab"].ToString(), dr1["nombre"].ToString()), dr1["email"].ToString() + ",analista.comercial@mercadodeimportaciones.com");
+
+                            this.EnviaMailGmail(this.Ventas_Articulos_30(dt, dr1["cod_estab"].ToString(), dr1["nombre"].ToString()), dr1["email"].ToString() + ",programador@mercadodeimportaciones.com");
                         }
                     }
                     if (dr1.IsClosed == false) { dr1.Close(); }
@@ -6794,7 +6809,9 @@ namespace EnviaReportes
                         while (dr1.Read())
                         {
                             this.lblEstado.Text = "Enviando Reporte Comparativo semana-semana...";
-                            this.EnviaMailGmail(this.Comparativo_semana_semana(dt, dr1["cod_estab"].ToString(), dr1["nombre"].ToString()), dr1["email"].ToString() + ",analista.comercial@mercadodeimportaciones.com");
+                            //this.EnviaMailGmail(this.Comparativo_semana_semana(dt, dr1["cod_estab"].ToString(), dr1["nombre"].ToString()), dr1["email"].ToString() + ",analista.comercial@mercadodeimportaciones.com");
+
+                            this.EnviaMailGmail(this.Comparativo_semana_semana(dt, dr1["cod_estab"].ToString(), dr1["nombre"].ToString()), dr1["email"].ToString() + ",programador@mercadodeimportaciones.com");
                         }
                     }
                     if (dr1.IsClosed == false) { dr1.Close(); }
@@ -6844,7 +6861,9 @@ namespace EnviaReportes
                     while (dr1.Read())
                     {
                         this.lblEstado.Text = "Enviando Reporte Acumulado De Ventas Mensual...";
-                        this.EnviaMailGmail(this.Acumulado_Ventas_Mensual(dt, dr1["cod_estab"].ToString(), dr1["nombre"].ToString()), dr1["email"].ToString() + ",analista.comercial@mercadodeimportaciones.com,mercadotecnia@mercadodeimportaciones.com");
+                        //this.EnviaMailGmail(this.Acumulado_Ventas_Mensual(dt, dr1["cod_estab"].ToString(), dr1["nombre"].ToString()), dr1["email"].ToString() + ",analista.comercial@mercadodeimportaciones.com,mercadotecnia@mercadodeimportaciones.com");
+
+                        this.EnviaMailGmail(this.Acumulado_Ventas_Mensual(dt, dr1["cod_estab"].ToString(), dr1["nombre"].ToString()), dr1["email"].ToString() + ",programador@mercadodeimportaciones.com");
                     }
                 }
                 if (dr1.IsClosed == false) { dr1.Close(); }
@@ -6872,7 +6891,9 @@ namespace EnviaReportes
                         while (dr1.Read())
                         {
                             this.lblEstado.Text = "Enviando Reporte Señalizacion de Promociones...";
-                            this.EnviaMailGmail(this.Señalizacion_promociones(dt), dr1["email"].ToString() + ",alberto.martinez@mercadodeimportaciones.com,luis.guerrero@mercadodeimportaciones.com,analista.comercial@mercadodeimportaciones.com,jesus.salazar@mercadodeimportaciones.com,jesus.suarez@mercadodeimportaciones.com");
+                            //this.EnviaMailGmail(this.Señalizacion_promociones(dt), dr1["email"].ToString() + ",alberto.martinez@mercadodeimportaciones.com,luis.guerrero@mercadodeimportaciones.com,analista.comercial@mercadodeimportaciones.com,jesus.salazar@mercadodeimportaciones.com,jesus.suarez@mercadodeimportaciones.com");
+
+                            this.EnviaMailGmail(this.Señalizacion_promociones(dt), dr1["email"].ToString() + ",programador@mercadodeimportaciones.com");
                         }
                     }
                     if (dr1.IsClosed == false) { dr1.Close(); }
@@ -6902,7 +6923,9 @@ namespace EnviaReportes
                         while (dr1.Read())
                         {
                             this.lblEstado.Text = "Enviando Reporte Desplazamiento De Temporada...";
-                            this.EnviaMailGmail(this.Desplazamiento_Temporada(dt), dr1["email"].ToString() + ",alberto.martinez@mercadodeimportaciones.com,luis.guerrero@mercadodeimportaciones.com,analista.comercial@mercadodeimportaciones.com,jesus.salazar@mercadodeimportaciones.com,jesus.suarez@mercadodeimportaciones.com");
+                            //this.EnviaMailGmail(this.Desplazamiento_Temporada(dt), dr1["email"].ToString() + ",alberto.martinez@mercadodeimportaciones.com,luis.guerrero@mercadodeimportaciones.com,analista.comercial@mercadodeimportaciones.com,jesus.salazar@mercadodeimportaciones.com,jesus.suarez@mercadodeimportaciones.com");
+
+                            this.EnviaMailGmail(this.Desplazamiento_Temporada(dt), dr1["email"].ToString() + ",programador@mercadodeimportaciones.com");
                         }
                     }
                     if (dr1.IsClosed == false) { dr1.Close(); }
@@ -6932,7 +6955,9 @@ namespace EnviaReportes
                         while (dr1.Read())
                         {
                             this.lblEstado.Text = "Enviando Reporte Articulos Menos Vendidos...";
-                            this.EnviaMailGmail(this.Menos_vendidos(dt, dr1["cod_estab"].ToString(), dr1["nombre"].ToString()), dr1["email"].ToString() + ",analista.comercial@mercadodeimportaciones.com");
+                            //this.EnviaMailGmail(this.Menos_vendidos(dt, dr1["cod_estab"].ToString(), dr1["nombre"].ToString()), dr1["email"].ToString() + ",analista.comercial@mercadodeimportaciones.com");
+
+                            this.EnviaMailGmail(this.Menos_vendidos(dt, dr1["cod_estab"].ToString(), dr1["nombre"].ToString()), dr1["email"].ToString() + ",programador@mercadodeimportaciones.com");
                         }
                     }
                     if (dr1.IsClosed == false) { dr1.Close(); }
@@ -6963,7 +6988,9 @@ namespace EnviaReportes
                         while (dr1.Read())
                         {
                             this.lblEstado.Text = "Enviando Reporte Cancelaciones y Devoluciones...";
-                            this.EnviaMailGmail(this.DevolucionesCancelacionesSucursal(dr1["email_cordinador"].ToString(), dr1["coordinador"].ToString(), dt), dr1["email_cordinador"].ToString() + ",luis.guerrero@mercadodeimportaciones.com,maferperezle01@gmail.com");
+                            //this.EnviaMailGmail(this.DevolucionesCancelacionesSucursal(dr1["email_cordinador"].ToString(), dr1["coordinador"].ToString(), dt), dr1["email_cordinador"].ToString() + ",luis.guerrero@mercadodeimportaciones.com,maferperezle01@gmail.com");
+
+                            this.EnviaMailGmail(this.DevolucionesCancelacionesSucursal(dr1["email_cordinador"].ToString(), dr1["coordinador"].ToString(), dt), dr1["email_cordinador"].ToString() + ",programador@mercadodeimportaciones.com");
                         }
                     }
                     if (dr1.IsClosed == false) { dr1.Close(); }
@@ -7033,7 +7060,9 @@ namespace EnviaReportes
 
         private string Reporte_Ventas(DateTime dia, string sucursal)
         {
-            SqlConnection con = new SqlConnection(@"Server=server-cln,1433;Database=BMSNayar; User Id=eliasb;Password=23032004;Connection Timeout=0");
+            //SqlConnection con = new SqlConnection(@"Server=server-cln,1433;Database=BMSNayar; User Id=eliasb;Password=23032004;Connection Timeout=0");
+            SqlConnection con = conexion.conectar("BDIntegrador");
+           
             SqlDataAdapter da = new SqlDataAdapter("F115_Datos", con);
             da.SelectCommand.CommandType = CommandType.StoredProcedure;
             da.SelectCommand.Parameters.Clear();
@@ -10728,12 +10757,14 @@ namespace EnviaReportes
 
             // destinatarios
             emailList.Clear();
-            emailList.Add("luis.guerrero@mercadodeimportaciones.com");
+            /* emailList.Add("luis.guerrero@mercadodeimportaciones.com");
             emailList.Add("alberto.martinez@mercadodeimportaciones.com");
             emailList.Add("prevencion@mercadodeimportaciones.com");
             emailList.Add("francisco.ontiveros@mercadodeimportaciones.com");
             emailList.Add("Gerencia.Sistemas@mercadodeimportaciones.com");
             emailList.Add("maferperezle01@gmail.com");
+            */
+            emailList.Add("programador@mercadodeimportaciones.com");
             string destinatarios = string.Join(",", emailList);
 
             // confirmacion
@@ -10744,7 +10775,7 @@ namespace EnviaReportes
             this.lblEstado.Text = $"Enviando {nombreReporte}...";
             btn_ReporteApertura.Enabled = false;
             EnviaMailGmail(ReporteApertura(fechaReporte), destinatarios);
-            this.lblEstado.Text = "Proceso de envío de {nombreReporte} - FINALIZADO EXITOSAMENTE.";
+            this.lblEstado.Text = $"Proceso de envío de {nombreReporte} - FINALIZADO EXITOSAMENTE.";
             btn_ReporteApertura.Enabled = true;
         }
 
@@ -10753,6 +10784,7 @@ namespace EnviaReportes
             string nombreReporte = "Reporte de Ventas con Descuento";
 
             // destinatarios
+            /*
             emailList.Add("monica.perez @mercadodeimportaciones.com");
             emailList.Add("jassiel.perez @mercadodeimportaciones.com");
             emailList.Add("alberto.martinez@mercadodeimportaciones.com");
@@ -10766,6 +10798,9 @@ namespace EnviaReportes
             emailList.Add("Gerencia.Sistemas@mercadodeimportaciones.com");
             emailList.Add("analista.comercial@mercadodeimportaciones.com");
             emailList.Add("hibrajid.lara@mercadodeimportaciones.com");
+            */
+            emailList.Add("programador@mercadodeimportaciones.com");
+
 
             string destinatarios = string.Join(",", emailList);
             DateTime fechaReporte = dtFechaReporte.Value.Date + dtFechaReporte.Value.TimeOfDay;
@@ -10821,6 +10856,7 @@ namespace EnviaReportes
 
             // destinatarios
             emailList.Clear();
+            /*
             emailList.Add("director@mercadodeimportaciones.com");
             emailList.Add("guillermina.cervantes@mercadodeimportaciones.com");
             emailList.Add("culiacan@mercadodeimportaciones.com");
@@ -10877,6 +10913,8 @@ namespace EnviaReportes
             emailList.Add("lapaz@mercadodeimportaciones.com");
             emailList.Add("obregonplaza@mercadodeimportaciones.com");
             emailList.Add("gerencia.sistemas@mercadodeimportaciones.com");
+            */
+            emailList.Add("programador@mercadodeimportaciones.com");
             string destinatarios = string.Join(",", emailList);
 
             // confirmacion
@@ -10899,6 +10937,7 @@ namespace EnviaReportes
 
             // destinatarios
             emailList.Clear();
+            /*
             emailList.Add("guillermina.cervantes@mercadodeimportaciones.com");
             emailList.Add("cedis@mercadodeimportaciones.com");
             emailList.Add("cedis.recibo@mercadodeimportaciones.com");
@@ -10908,6 +10947,9 @@ namespace EnviaReportes
             emailList.Add("gilberto.govea@mercadodeimportaciones.com");
             emailList.Add("hibrajid.lara@mercadodeimportaciones.com");
             emailList.Add("gerencia.sistemas@mercadodeimportaciones.com");
+            */
+
+            emailList.Add("programador@mercadodeimportaciones.com");
 
             string destinatarios = string.Join(",", emailList);
 
@@ -10943,7 +10985,7 @@ namespace EnviaReportes
         {
             string nombreReporte = "Reporte Existencias En Dias Ventas";
             DateTime fechaReporte = dtFechaReporte.Value.Date + dtFechaReporte.Value.TimeOfDay;
-
+            /*
             emailList.Add("guillermina.cervantes@mercadodeimportaciones.com");
             emailList.Add("annacelia.soto@mercadodeimportaciones.com");
             emailList.Add("luis.cota@mercadodeimportaciones.com");
@@ -10958,6 +11000,8 @@ namespace EnviaReportes
             emailList.Add("jesus.suarez@mercadodeimportaciones.com");
             emailList.Add("hibrajid.lara@mercadodeimportaciones.com");
             emailList.Add("maferperezle01@gmail.com");
+            */
+            emailList.Add("programador@mercadodeimportaciones.com");
             string destinatarios = string.Join(",", emailList);
 
             // confirmacion
@@ -10980,7 +11024,8 @@ namespace EnviaReportes
 
             // destinatarios
             emailList.Clear();
-            emailList.Add("analista.comercial@mercadodeimportaciones.com");
+            //emailList.Add("analista.comercial@mercadodeimportaciones.com");
+            emailList.Add("programador@mercadodeimportaciones.com");
             string destinatarios = string.Join(",", emailList);
 
             // confirmacion
@@ -11016,7 +11061,9 @@ namespace EnviaReportes
 
             // destinatarios
             emailList.Clear();
-            emailList.Add("analista.comercial@mercadodeimportaciones.com");
+            //emailList.Add("analista.comercial@mercadodeimportaciones.com");
+
+            emailList.Add("programador@mercadodeimportaciones.com");
             string destinatarios = string.Join(",", emailList);
 
             // confirmacion
@@ -11052,8 +11099,11 @@ namespace EnviaReportes
 
             // destinatarios
             emailList.Clear();
-            emailList.Add("analista.comercial@mercadodeimportaciones.com");
-            emailList.Add("mercadotecnia@mercadodeimportaciones.com");
+            /*
+             * emailList.Add("analista.comercial@mercadodeimportaciones.com");
+            emailList.Add("mercadotecnia@mercadodeimportaciones.com");*/
+
+            emailList.Add("programador@mercadodeimportaciones.com");
             string destinatarios = string.Join(",", emailList);
 
             // confirmacion
@@ -11089,11 +11139,14 @@ namespace EnviaReportes
 
             // destinatarios
             emailList.Clear();
-            emailList.Add("alberto.martinez@mercadodeimportaciones.com");
+            /*
+             * emailList.Add("alberto.martinez@mercadodeimportaciones.com");
             emailList.Add("luis.guerrero@mercadodeimportaciones.com");
             emailList.Add("analista.comercial@mercadodeimportaciones.com");
             emailList.Add("jesus.salazar@mercadodeimportaciones.com");
             emailList.Add("jesus.suarez@mercadodeimportaciones.com");
+            */
+            emailList.Add("programador@mercadodeimportaciones.com");
             string destinatarios = string.Join(",", emailList);
 
             // confirmacion
@@ -11129,11 +11182,14 @@ namespace EnviaReportes
 
             // destinatarios
             emailList.Clear();
-            emailList.Add("alberto.martinez@mercadodeimportaciones.com");
+            /*
+             * emailList.Add("alberto.martinez@mercadodeimportaciones.com");
             emailList.Add("luis.guerrero@mercadodeimportaciones.com");
             emailList.Add("analista.comercial@mercadodeimportaciones.com");
             emailList.Add("jesus.salazar@mercadodeimportaciones.com");
             emailList.Add("jesus.suarez@mercadodeimportaciones.com");
+            */
+            emailList.Add("programador@mercadodeimportaciones.com");
             string destinatarios = string.Join(",", emailList);
 
             // confirmacion
@@ -11168,7 +11224,8 @@ namespace EnviaReportes
 
             // destinatarios
             emailList.Clear();
-            emailList.Add("analista.comercial@mercadodeimportaciones.com");
+            //emailList.Add("analista.comercial@mercadodeimportaciones.com");
+            emailList.Add("programador@mercadodeimportaciones.com");
             string destinatarios = string.Join(",", emailList);
 
             // confirmacion
@@ -11203,8 +11260,11 @@ namespace EnviaReportes
 
             // destinatarios
             emailList.Clear();
-            emailList.Add("luis.guerrero@mercadodeimportaciones.com");
+            /*
+             * emailList.Add("luis.guerrero@mercadodeimportaciones.com");
             emailList.Add("maferperezle01@gmail.com");
+            */
+            emailList.Add("programador@mercadodeimportaciones.com");
             string destinatarios = string.Join(",", emailList);
 
             // confirmacion
