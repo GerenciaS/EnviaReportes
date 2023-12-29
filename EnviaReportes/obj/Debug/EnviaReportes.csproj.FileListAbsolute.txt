@@ -178,9 +178,9 @@ C:\Desarrollos\enviareportes\EnviaReportes\obj\Debug\EnviaReportes.csprojResolve
 C:\Desarrollos\GitHub\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe.config
 C:\Desarrollos\GitHub\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.exe
 C:\Desarrollos\GitHub\EnviaReportes\EnviaReportes\bin\Debug\EnviaReportes.pdb
-C:\Desarrollos\GitHub\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csprojResolveAssemblyReference.cache
 C:\Desarrollos\GitHub\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.FrmPrimcipal.resources
 C:\Desarrollos\GitHub\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.Properties.Resources.resources
 C:\Desarrollos\GitHub\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csproj.GenerateResource.Cache
 C:\Desarrollos\GitHub\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.exe
 C:\Desarrollos\GitHub\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.pdb
+C:\Desarrollos\GitHub\EnviaReportes\EnviaReportes\obj\Debug\EnviaReportes.csprojResolveAssemblyReference.cache

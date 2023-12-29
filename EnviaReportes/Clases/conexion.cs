@@ -14,18 +14,11 @@ namespace EnviaReportes
             try
             {
                 SqlConnection cn = new SqlConnection();
-                //cn.ConnectionString = "Server=187.216.118.170,14335;Database=" + bd + ";User Id=prgrmusr;Password=$M3rc4d0$;";
-                //cn.ConnectionString = "Server=server-cln;Database=" + bd + ";User Id=prgrmusr;Password=$M3rc4d0$;";
 
-                cn.ConnectionString = "Server=sqltest;Database=" + bd + ";User Id=sa;Password=03170754;";
+                cn.ConnectionString = "Server=server-cln;Database=" + bd + ";User Id=prgrmusr;Password=$M3rc4d0$;";
 
-                //cn.ConnectionString = "Server=187.216.118.170,14335;Database=" + bd + ";User Id=eliasb;Password=23032004;";
-
-                //cn.ConnectionString = "Server=server-cln,1433;Database=" + bd + ";User Id=eliasb;Password=23032004;Connection Timeout=0"; 
-                //cn.ConnectionString = "Server=server-cln,1433;Database=" + bd + ";User Id=jcbeltran;Password=010285;Connection Timeout=0";  
-
-                //cn.ConnectionString = "Server=(local),1433;Database=" + bd + ";User Id=sa;Password=kasuko!*suc;";                 
-                //cn.ConnectionString = "Server=servercorporativo.myvnc.com,14335;Database=" + bd + ";User Id=eliasb;Password=23032004;";                 
+               // cn.ConnectionString = "Server=sqltest;Database=" + bd + ";User Id=sa;Password=03170754;";
+                              
                 cn.Open();
                 return cn;
             }
